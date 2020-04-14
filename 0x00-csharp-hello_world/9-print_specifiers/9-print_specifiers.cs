@@ -6,7 +6,7 @@ class Program
 	{
 		double percent = .7553;
 		double currency = 98765.4321;
-		Console.WriteLine("Percent: " + percent*100 + "%");
+		Console.WriteLine("Percent: {0:0.00%}", percent);
         Console.WriteLine("Currency: ${0:n2}", currency);
 	}
 }
