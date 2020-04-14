@@ -2,11 +2,11 @@
 
 class Program
 {
-        static void Main(string[] args)
+    static void Main(string[] args)
+    {
+        for (int i = 0; i <= 98; i++ )
         {
-                for (int i = 0; i <= 98; i++ )
-                {
-                        Console.Write("{0} = 0x{0:x} \n", i);
-                }
+            Console.WriteLine("{0} = 0x{0:x}", i);
         }
+    }
 }
