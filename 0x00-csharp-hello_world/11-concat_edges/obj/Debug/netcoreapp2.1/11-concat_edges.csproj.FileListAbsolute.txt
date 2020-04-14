@@ -1,0 +1,11 @@
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/bin/Debug/netcoreapp2.1/11-concat_edges.deps.json
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/bin/Debug/netcoreapp2.1/11-concat_edges.runtimeconfig.json
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/bin/Debug/netcoreapp2.1/11-concat_edges.runtimeconfig.dev.json
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/bin/Debug/netcoreapp2.1/11-concat_edges.dll
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/bin/Debug/netcoreapp2.1/11-concat_edges.pdb
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/obj/Debug/netcoreapp2.1/11-concat_edges.csprojAssemblyReference.cache
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/obj/Debug/netcoreapp2.1/11-concat_edges.csproj.CoreCompileInputs.cache
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/obj/Debug/netcoreapp2.1/11-concat_edges.AssemblyInfoInputs.cache
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/obj/Debug/netcoreapp2.1/11-concat_edges.AssemblyInfo.cs
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/obj/Debug/netcoreapp2.1/11-concat_edges.dll
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/11-concat_edges/obj/Debug/netcoreapp2.1/11-concat_edges.pdb
