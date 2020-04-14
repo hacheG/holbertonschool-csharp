@@ -1,0 +1,11 @@
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/netcoreapp2.1/100-hello_error.deps.json
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/netcoreapp2.1/100-hello_error.runtimeconfig.json
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/netcoreapp2.1/100-hello_error.runtimeconfig.dev.json
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/netcoreapp2.1/100-hello_error.dll
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/netcoreapp2.1/100-hello_error.pdb
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/netcoreapp2.1/100-hello_error.csprojAssemblyReference.cache
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/netcoreapp2.1/100-hello_error.csproj.CoreCompileInputs.cache
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/netcoreapp2.1/100-hello_error.AssemblyInfoInputs.cache
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/netcoreapp2.1/100-hello_error.AssemblyInfo.cs
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/netcoreapp2.1/100-hello_error.dll
+/home/hache/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/netcoreapp2.1/100-hello_error.pdb
