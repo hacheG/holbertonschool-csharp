@@ -1,7 +1,5 @@
 ﻿using System;
 
-namespace _4_print_hexa
-{
     class Program
     {
         static void Main(string[] args)
@@ -12,4 +10,3 @@ namespace _4_print_hexa
             }
         }
     }
-}
