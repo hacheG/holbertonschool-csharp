@@ -4,6 +4,7 @@ class Array
 {
     public static int[] CreatePrint(int size)
     {
+        size = Convert.ToInt32(size);
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
