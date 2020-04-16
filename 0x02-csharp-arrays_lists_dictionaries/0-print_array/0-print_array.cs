@@ -16,14 +16,10 @@ class Array
             for (int i = 0; i < size; i++)
             {
                 arr[i] = i;
-            }
-
-            for (int i = 0; i < size; i++)
-            {
                 Console.Write(arr[i] + " ");
             }
             Console.WriteLine("");
-            return arr;  
+            return arr; 
         }
     }
 }
