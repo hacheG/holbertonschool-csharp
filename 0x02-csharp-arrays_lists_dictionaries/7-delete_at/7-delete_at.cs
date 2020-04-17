@@ -8,12 +8,12 @@ class List
     {
         if (myList.Count == 0)
         {
-            return -1;
+            return myList;
         }
 
         if (index < 0 || index > myList.Count-1)
         {
-            return -1;
+            return myList;
         }
         else
         {
