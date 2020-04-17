@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class PList
+class List
 {
     public static int MaxInteger(List<int> myList)
     {
-        int i, max = 0;
-
-        for (i = 0; i < myList.Count; i++)
-        {
-            if (myList[i] > max)
-            {
-                max = myList[i];
-            }
-        }
+        myList.Sort();
+        int max = myList[myList.Count-1];
         return max;
+        
     }
 }
