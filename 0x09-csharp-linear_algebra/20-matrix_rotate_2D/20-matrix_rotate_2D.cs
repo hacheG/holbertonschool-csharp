@@ -15,8 +15,8 @@ class MatrixMath
         int[] data = new int[9] {0,0,0,0,0,0,0,0,0};
         double[,] respuesta = new double[2, 2];
         double[,] rotacion  = new double[2, 2]{
-                                                {Math.Cos(angle), -Math.Sin(angle)},    
-                                                {Math.Sin(angle),Math.Cos(angle)}
+                                                {Math.Round( Math.Cos(angle)), Math.Round(-Math.Sin(angle))},    
+                                                {Math.Round(Math.Sin(angle)), Math.Round(Math.Cos(angle))}
                                               };
         if (matrix.GetLength(0) == 2)
         {
@@ -29,10 +29,14 @@ class MatrixMath
                     {
                         num -=4;
                     }
-                    for (int k = 0; k < 2; k++)
+                    else if (num == 0)
                     {
                         num++;
-                        data[num] = rotacion[i, j] * matrix[j, k];
+                    }
+                    for (int k = 0; k < 2; k++)
+                    {
+                        
+                        data[num] = Math.Round( rotacion[i, j] * matrix[k, j]);
                         num +=4;
                     }
                 }
