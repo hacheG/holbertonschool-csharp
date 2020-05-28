@@ -20,7 +20,7 @@ class MatrixMath
                                                 {Math.Round( Math.Cos(angle)), Math.Round(-Math.Sin(angle))},    
                                                 {Math.Round(Math.Sin(angle)), Math.Round(Math.Cos(angle))}
                                               };
-        if (matrix.GetLength(0) == 2)
+        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
         {
             
             for (int i = 0; i < matrix.GetLength(0); i++)
