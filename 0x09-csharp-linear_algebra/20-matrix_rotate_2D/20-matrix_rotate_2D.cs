@@ -12,6 +12,8 @@ class MatrixMath
     public static double[,] Rotate2D(double[,] matrix, double angle)
     {
         int num = 0;
+        int a = 1;
+        int b = 2;
         int[] data = new int[9] {0,0,0,0,0,0,0,0,0};
         double[,] respuesta = new double[2, 2];
         double[,] rotacion  = new double[2, 2]{
@@ -41,10 +43,18 @@ class MatrixMath
                     }
                 }
             }
-            respuesta[0, 0] = data[1] + data[2];
-            respuesta[0, 1] = data[3] + data[4]; 
-            respuesta[1, 0] = data[5] + data[6]; 
-            respuesta[1, 1] = data[7] + data[8];
+            for (int q = 0; q < matrix.GetLength(0); q++)
+            {
+                for (int w = 0; w < matrix.GetLength(0); w++)
+                {
+                    respuesta[q, w] = data[a] + data[b];
+                    a+=2;
+                    b+=2;
+
+
+                }
+            }
+           
             
             return respuesta; 
         }
