@@ -40,7 +40,9 @@ class MatrixMath
             respuesta[0, 0] = data[1] + data[2];
             respuesta[0, 1] = data[3] + data[4]; 
             respuesta[1, 0] = data[5] + data[6]; 
-            respuesta[1, 1] = data[7] + data[8]; 
+            respuesta[1, 1] = data[7] + data[8];
+            
+            return respuesta; 
         }
         else
         {
