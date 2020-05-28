@@ -48,10 +48,10 @@ class MatrixMath
             
             return respuesta; 
         }
-        else
-        {
-            return new double[,]{{-1}};
-        }
+        
+        
+        return new double[,]{{-1}};
+        
 
     }
 }
