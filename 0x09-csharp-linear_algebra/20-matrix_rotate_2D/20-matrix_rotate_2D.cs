@@ -21,9 +21,9 @@ class MatrixMath
         if (matrix.GetLength(0) == 2)
         {
             
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < 2; j++)
+                for (int j = 0; j < matrix.GetLength(0); j++)
                 {
                     if (num != 0)
                     {
@@ -33,7 +33,7 @@ class MatrixMath
                     {
                         num++;
                     }
-                    for (int k = 0; k < 2; k++)
+                    for (int k = 0; k < matrix.GetLength(0); k++)
                     {
                         
                         data[num] = Math.Round( rotacion[i, j] * matrix[k, j]);
